@@ -65,7 +65,7 @@ class PublishTemplateCommand extends PublishBaseCommand
      */
     public function publishSwaggerTemplates()
     {
-        $templatesPath = base_path('vendor/hoangbk/swagger-generator/templates');
+        $templatesPath = base_path('vendor/hoangk51/swagger-generator/templates');
 
         return $this->publishDirectory($templatesPath, $this->templatesDir, 'swagger-generator', true);
     }

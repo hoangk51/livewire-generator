@@ -115,7 +115,7 @@ if (!function_exists('get_templates_package_path')) {
     function get_templates_package_path($templateType)
     {
         if (strpos($templateType, '/') === false) {
-            $templateType = base_path('vendor/hoangbk/').$templateType;
+            $templateType = base_path('vendor/hoangk51/').$templateType;
         }
 
         return $templateType;
