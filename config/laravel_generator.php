@@ -89,7 +89,7 @@ return [
     |
     */
 
-    'templates'         => 'adminlte-templates',
+    'templates'         => 'livewire-templates',
 
     /*
     |--------------------------------------------------------------------------
